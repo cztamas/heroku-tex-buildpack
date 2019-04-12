@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+if [ -f "$1/tex.packages" ]; then
+  echo "TeX Live"
+  exit 0
+fi
+
+exit 1
