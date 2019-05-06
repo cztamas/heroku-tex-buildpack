@@ -11,8 +11,8 @@ BIN_DIR=$(cd "$(dirname "$0")"; pwd) # absolute path
 TEXLIVE_REPOSITORY="http://mirror.ctan.org/systems/texlive/tlnet"
 TEXLIVE_INSTALLER_URL="$TEXLIVE_REPOSITORY/install-tl-unx.tar.gz"
 
-TEXLIVE_HOME=$BUILD_DIR/.texlive_2019
-TEXLIVE_CACHE=$CACHE_DIR/.texlive_2019
+TEXLIVE_HOME=$BUILD_DIR/.texlive
+TEXLIVE_CACHE=$CACHE_DIR/.texlive
 PATH=$TEXLIVE_HOME/bin/x86_64-linux:$PATH
 PROFILE_D=$BUILD_DIR/.profile.d/texlive.sh
 
